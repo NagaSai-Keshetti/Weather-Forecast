@@ -57,7 +57,7 @@ A page is high-level component connected to a route in single page applications.
 A feature component defines a functional behaviour consists of multiple components and services. A feature can be reused across multiple pages and feature in a feature is also possible.
 
 ### designElements
-As name reflects, these are reusable design elements can be reused in any part of the project.
+As name reflects, these are reusable design elements can be reused in any part of the project. These are prefixed with 'wf' to be specific to the project weather forecast.
 
 ### shared
 A shared folder contains components, services, interfaces, constants, enums, (can also have utils, guards etc.,) which can be reused in any part of the application. Shared components are also reusable components unlike design elements these components have functional behaviour as per the requirements. These may be wrapper around design elements.
