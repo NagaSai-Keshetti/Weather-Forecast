@@ -1,0 +1,15 @@
+<ion-card *ngIf="city" button="true" (click)="goToCityWeatherOverview()" color="secondary">
+  <ion-card-header>
+    <ion-card-subtitle>{{city.name}}</ion-card-subtitle>
+    <ion-card-title>
+      <span class="ion-padding-end">
+        <span [ngStyle]="{'background-image':'url('+weatherIcon+')'}" class="weather-icon"></span>
+        <wf-temperature [value]="city.main.avg_temp"></wf-temperature>
+      </span>
+      <wf-wind [speed]="city.wind.speed" [angle]="city.wind.deg"></wf-wind>
+    </ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+
+  </ion-card-content>
+</ion-card>

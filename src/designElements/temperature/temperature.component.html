@@ -1,0 +1,6 @@
+<ion-text>{{value| number:'1.1-1'}}</ion-text>
+<span [ngSwitch]='unit'>
+  <ion-text *ngSwitchCase="defaultUnits.standard">K</ion-text>
+  <ion-text *ngSwitchCase="defaultUnits.metric">&#8451;</ion-text>
+  <ion-text *ngSwitchCase="defaultUnits.imperial">&#8457;</ion-text>
+</span>
