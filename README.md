@@ -7,15 +7,15 @@ This project was generated with [Ionic CLI] version 6.13.1, built on ionic + ang
 Run `ionic serve` for a dev server. Navigate to `http://localhost:8100/`. The app will automatically reload if you change any of the source files.
 
 ## Prerequisite
-Node >14 is needed.
-Run npm install from root folder to install all the packages.
+- Node >14 is needed.
+- Run npm install from root folder to install all the packages.
 
 ## Running unit tests
 
 Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
 The global structure of this repository is as follows:
-
+```Text
 src:
 ├───app
 │   └───components
@@ -45,6 +45,7 @@ src:
 │       ├───getCity
 │       └───getHourlyCityWeather
 └───theme
+```
 
 ## Definitions
 ### app
@@ -72,9 +73,9 @@ Assests related to application.
 App components are components specific to the app.
 
 ## Functional Behaviour
-On running ionic serve command application will run on localhost:8100.
-The default route is 'home' which shows 5 cities weather overview. The overview has city name, average temperature and wind speed with direction.
-When click on each city, customer is redirected to full weather forecast of that city and this city URL is independent on its own.
-Since the whole application is the single page, navigation between the pages is fast and doesn't download all the resources again.
-This is Responsive Web Application works on web and mobile resolutions/breakpoints.
-Used available color combination for faster output.
+- On running ionic serve command application will run on localhost:8100.
+- The default route is 'home' which shows 5 cities weather overview. The overview has city name, average temperature and wind speed with direction.
+- When click on each city, customer is redirected to full weather forecast of that city and this city URL is independent on its own.
+- Since the whole application is the single page, navigation between the pages is fast and doesn't download all the resources again.
+- This is Responsive Web Application works on web and mobile resolutions/breakpoints.
+- Used available color combination for faster output.
